@@ -1,0 +1,14 @@
+# Replace the placeholders with real GitHub usernames before enabling
+# "Require review from Code Owners" in branch protection.
+/docs/                          @shahriarsnikdho
+/src/contracts/                 @shahriarsnikdho
+/src/server/pipeline/           @shahriarsnikdho
+/.github/                       @shahriarsnikdho
+/src/server/diagnosis/          @JOY_GITHUB_USERNAME
+/ml/                            @JOY_GITHUB_USERNAME
+/src/app/                       @SEJDA_GITHUB_USERNAME
+/src/components/                @SEJDA_GITHUB_USERNAME
+/supabase/                      @RAJVA_GITHUB_USERNAME
+/src/lib/supabase/              @RAJVA_GITHUB_USERNAME
+/src/server/recommendation/     @SAMIA_GITHUB_USERNAME
+/src/server/risk/               @SAMIA_GITHUB_USERNAME
