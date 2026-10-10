@@ -10,3 +10,6 @@
 | 7 | 2026-10-10 | `LOW_CONFIDENCE_THRESHOLD = 0.6` is provisional until Joy calibrates it on evaluation data. | Open |
 | 8 | 2026-10-10 | Scaffold uses system fonts (no Google Fonts fetch) for deterministic CI; Sejda picks the Bangla font. | Done |
 | 9 | 2026-10-10 | Inference hosting (separate HTTP service vs hosted API) | Open — Joy |
+| 10 | 2026-10-10 | Demo prototype (`/` page + `/api/demo/diagnose`) added so the team can see the flow. It has NO auth and NO persistence and must be deleted/gated once Supabase auth exists. Sejda replaces the UI. | Done (prototype) |
+| 11 | 2026-10-10 | `poor_image` is returned as HTTP 200 with `diagnosis.status = "poor_image"` (so the UI can show the explanation). The `poor_image` ApiError code is currently unused. | Open - confirm with Sejda/Joy |
+| 12 | 2026-10-10 | `RiskResult.level` has no "unknown"; demo uses "moderate" for unreliable results. Consider adding "unknown" with Samia. | Open |

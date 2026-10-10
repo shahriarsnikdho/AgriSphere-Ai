@@ -11,4 +11,5 @@
 | 8 | Risk + alerts | Samia | 7 | high-severity & low-confidence alerts | Not started |
 | 9 | Persistence, history, timeline | Rajva+Sejda | 3,6,8 | save/retrieve, empty state | Not started |
 | 10 | Deploy, smoke test, demo docs | Snikdho | 9 | verified live URL | Not started |
+| 2b | Demo UI + demo API + mock provider (prototype, no auth) | Snikdho | 2 | all 7 scenarios work end to end | Done locally (not yet pushed) |
 Still to write: PRD.md, DEPLOYMENT.md, KNOWN_LIMITATIONS.md, demo script, pitch, judge Q&A.
